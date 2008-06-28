@@ -1,3 +1,5 @@
+#summary This document covers the original requirements defined for the DjangoTaskScheduler application.
+
 =Django Task Scheduler Requirements=
 June 21, 2008
 
