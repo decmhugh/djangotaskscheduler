@@ -64,6 +64,7 @@ The heartbeat program will do the following:
 ===3.1.3 Calculate the next scheduled datetime===
 To calculate the next runtime we can use the function shown below. It will calculate the next instance based on the start datetime (original start dt) and its interval in minutes. This code will be run after the scheduled program completes and it is a recurring program. Next run date time is written in the new scheduled instance.
 
+{{{
 from math import ceil
 from datetime import *
 import time
@@ -87,6 +88,7 @@ def next_runtime(start_dt, recurrence):
     return next_dt
 
 print next_runtime(start_dt=datetime(2008, 2, 2, 10, 5), recurrence=15)
+}}}
 
 
 ==3.2 Data Model==
