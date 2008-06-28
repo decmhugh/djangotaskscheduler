@@ -41,3 +41,11 @@ Start the application using
 Start the poller using 
 	./run_poller
 
+
+=== Add your own tasks ===
+Go to the admin module (http://localhost:8000/admin) and create a new task. 
+The task program is the actual python program name that is to be put in scheduler/tasks. 
+
+
+=== Change or add your own recurrences
+Go to the admin module (http://localhost:8000/admin) and create or update a recurrence. 
